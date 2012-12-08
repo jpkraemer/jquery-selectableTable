@@ -44,6 +44,7 @@
 			} 
 
 			$(this).toggleClass(self.selectionClass);		
+			$(this).trigger("selectionChanged");
 		});
 	};
 
