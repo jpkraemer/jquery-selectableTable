@@ -9,4 +9,4 @@ To make a table with the id "table" selectable, just put `$("#table").selectable
 
 When the selection changes, the selectableTable triggers a "selectionChanged" event, you can observe using `$("#table").on('selectionChanged', function...)`.
 
-To get the selected rows (as a jQuery object containing trs) use `$("#table").data('selectableTable').getSelection()`.
+Use `$("#table").data('selectableTable').getSelection()` to get the selected rows (as a jQuery object containing trs).
